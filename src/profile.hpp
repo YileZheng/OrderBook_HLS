@@ -1,0 +1,6 @@
+
+#define AS_RANGE 1000
+#define AS_CHAIN_LEVELS 200
+#define AS_UNIT 0.01
+#define AS_SLOTSIZE 3
+#define AS_INVALID_LINK 2200

@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dut_suborder_book.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_dataflow_monitor_sv " />
+            <top_module name="apatb_dut_suborder_book_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book//AESL_inst_dut_suborder_book_activity">
+         <obj_property name="label">AESL_inst_dut_suborder_book_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_dut_suborder_book_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_dut_suborder_book_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book//AESL_inst_dut_suborder_book_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book//AESL_inst_dut_suborder_book_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book//AESL_inst_dut_suborder_book_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/grp_get_maintain_bookIndex_fu_126_activity">
+            <obj_property name="label">grp_get_maintain_bookIndex_fu_126_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_get_maintain_bookIndex_fu_126_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_get_maintain_bookIndex_fu_126_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/grp_get_maintain_bookIndex_fu_126_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/grp_get_maintain_bookIndex_fu_126_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/grp_get_maintain_bookIndex_fu_126_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_book_fu_148_activity">
+            <obj_property name="label">grp_update_book_fu_148_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">grp_update_book_fu_148_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_update_book_fu_148_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_book_fu_148_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_book_fu_148_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_book_fu_148_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/grp_update_optimal_fu_884_activity">
+               <obj_property name="label">grp_update_optimal_fu_884_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_update_optimal_fu_884_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_update_optimal_fu_884_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/grp_update_optimal_fu_884_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/grp_update_optimal_fu_884_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/grp_update_optimal_fu_884_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/AESL_inst_dut_suborder_book_activity">
+      <obj_property name="ElementShortName">AESL_inst_dut_suborder_book_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_dut_suborder_book_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_dut_suborder_book_group">
+      <obj_property name="label">AESL_inst_dut_suborder_book</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/grp_get_maintain_bookIndex_fu_126_activity">
+         <obj_property name="ElementShortName">grp_get_maintain_bookIndex_fu_126_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_get_maintain_bookIndex_fu_126_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_book_fu_148_activity">
+         <obj_property name="ElementShortName">grp_update_book_fu_148_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_update_book_fu_148_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_dut_suborder_book_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_get_maintain_bookIndex_fu_126_group">
+         <obj_property name="label">grp_get_maintain_bookIndex_fu_126</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_get_maintain_bookIndex_fu_126_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_get_maintain_bookIndex_fu_126/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="grp_update_book_fu_148_group">
+         <obj_property name="label">grp_update_book_fu_148</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/grp_update_optimal_fu_884_activity">
+            <obj_property name="ElementShortName">grp_update_optimal_fu_884_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_update_optimal_fu_884_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_update_book_fu_148_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_update_optimal_fu_884_group">
+            <obj_property name="label">grp_update_optimal_fu_884</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_update_optimal_fu_884_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/grp_update_book_fu_148/grp_update_optimal_fu_884/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group62">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group63">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group64">
+            <obj_property name="label">book(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="group65">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RRESP">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RUSER">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RDATA">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARUSER">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARREGION">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARQOS">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARPROT">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARCACHE">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARLOCK">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARBURST">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARSIZE">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARLEN">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARADDR">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="group66">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_BUSER">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_BID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_BRESP">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WUSER">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WSTRB">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WSTRB[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WSTRB[15:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WDATA">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWUSER">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWREGION">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWQOS">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWPROT">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWCACHE">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWLOCK">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWBURST">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWSIZE">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWLEN">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWADDR">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="group67">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_BREADY">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_BVALID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RLAST">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RREADY">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_RVALID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARREADY">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_ARVALID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WLAST">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WREADY">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_WVALID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWREADY">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/m_axi_gmem0_AWVALID">
+                  <obj_property name="ElementShortName">m_axi_gmem0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group113">
+            <obj_property name="label">order_message__book__book_head_b__book_head_a__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/interrupt">
+               <obj_property name="ElementShortName">interrupt</obj_property>
+               <obj_property name="ObjectShortName">interrupt</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_BRESP">
+               <obj_property name="ElementShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_BREADY">
+               <obj_property name="ElementShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_BVALID">
+               <obj_property name="ElementShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_RRESP">
+               <obj_property name="ElementShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_RDATA">
+               <obj_property name="ElementShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_RREADY">
+               <obj_property name="ElementShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_RVALID">
+               <obj_property name="ElementShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_ARREADY">
+               <obj_property name="ElementShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_ARVALID">
+               <obj_property name="ElementShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_ARADDR">
+               <obj_property name="ElementShortName">s_axi_control_ARADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_ARADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_WSTRB">
+               <obj_property name="ElementShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_WDATA">
+               <obj_property name="ElementShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_WREADY">
+               <obj_property name="ElementShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_WVALID">
+               <obj_property name="ElementShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_AWREADY">
+               <obj_property name="ElementShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_AWVALID">
+               <obj_property name="ElementShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/s_axi_control_AWADDR">
+               <obj_property name="ElementShortName">s_axi_control_AWADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_control_AWADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group132">
+         <obj_property name="label">Block-level IO Handshake(internal)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_idle">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group137">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_rst_n">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group139">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/AESL_inst_dut_suborder_book/ap_clk">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group141">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group142">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group143">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/AUTOTB_TRANSACTION_NUM">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/ready_cnt">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/done_cnt">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group144">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/LENGTH_order_message">
+               <obj_property name="ElementShortName">LENGTH_order_message[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_order_message[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/LENGTH_book">
+               <obj_property name="ElementShortName">LENGTH_book[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_book[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/LENGTH_book_head_b">
+               <obj_property name="ElementShortName">LENGTH_book_head_b[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_book_head_b[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/LENGTH_book_head_a">
+               <obj_property name="ElementShortName">LENGTH_book_head_a[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_book_head_a[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/LENGTH_gmem0">
+               <obj_property name="ElementShortName">LENGTH_gmem0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem0[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group153">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group154">
+            <obj_property name="label">book(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="group155">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_RRESP">
+                  <obj_property name="ElementShortName">gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_RUSER">
+                  <obj_property name="ElementShortName">gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_RID">
+                  <obj_property name="ElementShortName">gmem0_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_RDATA">
+                  <obj_property name="ElementShortName">gmem0_RDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARUSER">
+                  <obj_property name="ElementShortName">gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARREGION">
+                  <obj_property name="ElementShortName">gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARQOS">
+                  <obj_property name="ElementShortName">gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARPROT">
+                  <obj_property name="ElementShortName">gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARCACHE">
+                  <obj_property name="ElementShortName">gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARLOCK">
+                  <obj_property name="ElementShortName">gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARBURST">
+                  <obj_property name="ElementShortName">gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARSIZE">
+                  <obj_property name="ElementShortName">gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARLEN">
+                  <obj_property name="ElementShortName">gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARID">
+                  <obj_property name="ElementShortName">gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_ARADDR">
+                  <obj_property name="ElementShortName">gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="group156">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_BUSER">
+                  <obj_property name="ElementShortName">gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_BID">
+                  <obj_property name="ElementShortName">gmem0_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_BRESP">
+                  <obj_property name="ElementShortName">gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_WUSER">
+                  <obj_property name="ElementShortName">gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_WID">
+                  <obj_property name="ElementShortName">gmem0_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_WSTRB">
+                  <obj_property name="ElementShortName">gmem0_WSTRB[15:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WSTRB[15:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_WDATA">
+                  <obj_property name="ElementShortName">gmem0_WDATA[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WDATA[127:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWUSER">
+                  <obj_property name="ElementShortName">gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWREGION">
+                  <obj_property name="ElementShortName">gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWQOS">
+                  <obj_property name="ElementShortName">gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWPROT">
+                  <obj_property name="ElementShortName">gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWCACHE">
+                  <obj_property name="ElementShortName">gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWLOCK">
+                  <obj_property name="ElementShortName">gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWBURST">
+                  <obj_property name="ElementShortName">gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWSIZE">
+                  <obj_property name="ElementShortName">gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWLEN">
+                  <obj_property name="ElementShortName">gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWID">
+                  <obj_property name="ElementShortName">gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/gmem0_AWADDR">
+                  <obj_property name="ElementShortName">gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWADDR[63:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="group157">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_BREADY">
+                  <obj_property name="ElementShortName">gmem0_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_BVALID">
+                  <obj_property name="ElementShortName">gmem0_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_RLAST">
+                  <obj_property name="ElementShortName">gmem0_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_RREADY">
+                  <obj_property name="ElementShortName">gmem0_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_RVALID">
+                  <obj_property name="ElementShortName">gmem0_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_ARREADY">
+                  <obj_property name="ElementShortName">gmem0_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_ARVALID">
+                  <obj_property name="ElementShortName">gmem0_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_WLAST">
+                  <obj_property name="ElementShortName">gmem0_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_WREADY">
+                  <obj_property name="ElementShortName">gmem0_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_WVALID">
+                  <obj_property name="ElementShortName">gmem0_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_AWREADY">
+                  <obj_property name="ElementShortName">gmem0_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/gmem0_AWVALID">
+                  <obj_property name="ElementShortName">gmem0_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem0_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group203">
+            <obj_property name="label">order_message__book__book_head_b__book_head_a__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_INTERRUPT">
+               <obj_property name="ElementShortName">control_INTERRUPT</obj_property>
+               <obj_property name="ObjectShortName">control_INTERRUPT</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_BRESP">
+               <obj_property name="ElementShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_BREADY">
+               <obj_property name="ElementShortName">control_BREADY</obj_property>
+               <obj_property name="ObjectShortName">control_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_BVALID">
+               <obj_property name="ElementShortName">control_BVALID</obj_property>
+               <obj_property name="ObjectShortName">control_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_RRESP">
+               <obj_property name="ElementShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_RDATA">
+               <obj_property name="ElementShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_RREADY">
+               <obj_property name="ElementShortName">control_RREADY</obj_property>
+               <obj_property name="ObjectShortName">control_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_RVALID">
+               <obj_property name="ElementShortName">control_RVALID</obj_property>
+               <obj_property name="ObjectShortName">control_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_ARREADY">
+               <obj_property name="ElementShortName">control_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">control_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_ARVALID">
+               <obj_property name="ElementShortName">control_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">control_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_ARADDR">
+               <obj_property name="ElementShortName">control_ARADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">control_ARADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_WSTRB">
+               <obj_property name="ElementShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_WDATA">
+               <obj_property name="ElementShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">control_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_WREADY">
+               <obj_property name="ElementShortName">control_WREADY</obj_property>
+               <obj_property name="ObjectShortName">control_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_WVALID">
+               <obj_property name="ElementShortName">control_WVALID</obj_property>
+               <obj_property name="ObjectShortName">control_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_AWREADY">
+               <obj_property name="ElementShortName">control_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">control_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_dut_suborder_book_top/control_AWVALID">
+               <obj_property name="ElementShortName">control_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">control_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/apatb_dut_suborder_book_top/control_AWADDR">
+               <obj_property name="ElementShortName">control_AWADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">control_AWADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
