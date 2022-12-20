@@ -130,7 +130,7 @@ vector<Message> messageManager::generate_messages(
 			}
 
 			bid = (ab == "1")? 1: 0;
-			std::cout<<"Line: " << (id/STOCK_TEST) << " Symbol: " << string((char*)(symbol_map+ii), 8) <<" OrderID: "<<input_in.orderID << " Side: " <<bid<<" Type: "<<odop<<" Price: "<< input_in.price <<" Volume: "<< input_in.size <<endl;
+			// std::cout<<"Line: " << (id/STOCK_TEST) << " Symbol: " << string((char*)(symbol_map+ii), 8) <<" OrderID: "<<input_in.orderID << " Side: " <<bid<<" Type: "<<odop<<" Price: "<< input_in.price <<" Volume: "<< input_in.size <<endl;
 
 			input_in.timestamp = (Time)(stof(tstmp)*1000000000);
 			input_in.symbol = symbol_map[ii];

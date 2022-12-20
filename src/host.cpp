@@ -66,7 +66,7 @@ typedef uint32_t u32;
 	
 void wait_for_enter(const std::string &msg);
 
-template<int RANGE, int SLOTSIZE, int INVALID_LINK>
+template<int RANGE, int SLOTSIZE, link_t INVALID_LINK>
 void book_read(
 	vector<vector<price_depth>> &resultbook, 
 	int read_max,
@@ -121,14 +121,11 @@ class KernelHandle{
 	public:
 	KernelHandle(int dh){
 		krnl_reg_base = (uint32_t*)mmap(NULL, 65536, PROT_READ | PROT_WRITE, MAP_SHARED, dh, KRNL_REG_BASE_ADDR);
-		book_addr  = (price_depth_chain*)mmap(NULL, 128 * (2*AS_RANGE + AS_CHAIN_LEVELS), PROT_READ | PROT_WRITE, MAP_SHARED, dh, BOOK_ADDR);
+		book_addr  = (price_depth_chain*)mmap(NULL, 128 * (2*AS_RANGE + AS_CHAIN_LEVELS) * 8, PROT_READ | PROT_WRITE, MAP_SHARED, dh, BOOK_ADDR);
 
 	}
 
 	~KernelHandle(){
-		// m_queue.enqueueUnmapMemObject(buf_in, host_write_ptr);
-		// m_queue.enqueueUnmapMemObject(buf_out, host_read_ptr);
-		// m_queue.finish();
 	}
 
     double read_orderbook(vector<vector<price_depth>>& data_out);
@@ -145,11 +142,6 @@ char symbols[STOCK_TEST][8] =  {{' ',' ',' ',' ','L','P', 'A','A'},
 // config
 symbol_t *symbol_map=(symbol_t*)symbols;
 
-// const char*    STR_ERROR   = "ERROR:   ";
-// const char*    STR_FAILED  = "FAILED:  ";
-// const char*    STR_PASSED  = "PASSED:  ";
-// const char*    STR_INFO    = "INFO:    ";
-// const char*    STR_USAGE   = "USAGE:   ";
 
 int main(int argc, char* argv[]) {
     // int dh = open("/dev/mem", O_RDWR | O_SYNC);
@@ -207,7 +199,7 @@ int main(int argc, char* argv[]) {
 	// burst order feeding
 
 	double elapse_ns_total = 0, num_orders = 0, elapse_read = 0, num_read = 0;
-	int order_len = 20, shot = 10;      // should not exceed MAX_WRITE
+	int order_len = 10, shot = 2;      // should not exceed MAX_WRITE
 	bool match;
 
 	while (shot--){
@@ -298,7 +290,7 @@ double KernelHandle::run(
 	uint control = (XAdder_apint_ReadReg(krnl_reg_base, AXILITE_OFFSET_CONTROL) & 0x80);
 	XAdder_apint_WriteReg(krnl_reg_base, AXILITE_OFFSET_CONTROL, control | 0x01);
 
-	et.add("Run kernel arguments");
+	et.add("Run kernel");
 	while (((XAdder_apint_ReadReg(krnl_reg_base, AXILITE_OFFSET_CONTROL) >> 1) & 0x1) == 0) {
 		// wait until kernel finish running
 	}
