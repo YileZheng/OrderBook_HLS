@@ -158,6 +158,7 @@ int main(int argc, char* argv[]) {
 
     }
     EventTimer et;
+	cout <<"why";
     // wait_for_enter("\nPress ENTER to continue after setting up ILA trigger...");
 
 	messageManager messages_handler(file_dir);
