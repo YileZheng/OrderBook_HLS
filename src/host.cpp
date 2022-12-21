@@ -66,7 +66,7 @@ typedef uint32_t u32;
 	
 void wait_for_enter(const std::string &msg);
 
-template<int RANGE, int SLOTSIZE, link_t INVALID_LINK>
+template<int RANGE, int SLOTSIZE, int INVALID_LINK>
 void book_read(
 	vector<vector<price_depth>> &resultbook, 
 	int read_max,
