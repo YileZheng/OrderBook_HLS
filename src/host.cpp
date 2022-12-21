@@ -122,6 +122,7 @@ class KernelHandle{
 	KernelHandle(int dh){
 		krnl_reg_base = (uint32_t*)mmap(NULL, 65536, PROT_READ | PROT_WRITE, MAP_SHARED, dh, KRNL_REG_BASE_ADDR);
 		book_addr  = (price_depth_chain*)mmap(NULL, 128 * (2*AS_RANGE + AS_CHAIN_LEVELS) * 8, PROT_READ | PROT_WRITE, MAP_SHARED, dh, BOOK_ADDR);
+		mem_init(book_addr, (2*AS_RANGE + AS_CHAIN_LEVELS), 0);
 
 	}
 
@@ -131,6 +132,7 @@ class KernelHandle{
     double read_orderbook(vector<vector<price_depth>>& data_out);
     double new_orders(vector<Message>& data_in);
     double run(orderMessage order);
+	void mem_init(price_depth_chain* base, int len, price_depth_chain value);
 
 };
 
@@ -307,6 +309,12 @@ double KernelHandle::run(
 
 	et.print();
 	return elapsed_ns;
+}
+
+void KernelHandle::mem_init(price_depth_chain* base, int len, price_depth_chain value){
+	for (int i = 0; i < len; i++){
+		*(base + i) = value;
+	}
 }
 
 void wait_for_enter(const std::string &msg) {

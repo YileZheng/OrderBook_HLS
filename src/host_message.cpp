@@ -52,7 +52,7 @@ vector<Message> messageManager::init_book_messsages(){
 			for(vector<string>::iterator it = line_split.begin(); it != line_split.end(); it++){
 				pr = *it;
 				qty = *(++it);
-				input_in.price = (price_t)(stof(pr)/MULTI); input_in.size = (qty_t)(stof(qty)); input_in.orderID = (size_t)1;
+				input_in.price = (price_t)(stof(pr)/MULTI); input_in.size = (qty_t)(stof(qty)); input_in.orderID = (orderID_t)1;
 				bid++;
 				input_in.timestamp = (Time)34200*1000000000;
 				input_in.symbol = symbol_map[ii];
@@ -111,7 +111,7 @@ vector<Message> messageManager::generate_messages(
 			if ((op[0] == '5') || (op[0] == '7'))
 				continue;
 
-			input_in.price = (price_t)(stof(pr)/MULTI); input_in.size = (qty_t)(stof(qty)); input_in.orderID = (size_t)(stoi(oid));
+			input_in.price = (price_t)(stof(pr)/MULTI); input_in.size = (qty_t)(stof(qty)); input_in.orderID = (orderID_t)(stoi(oid));
 
 
 			switch (op[0])
