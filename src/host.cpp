@@ -49,10 +49,6 @@ typedef uint32_t u32;
 /* transfer related definitions */
 #define BOOK_ADDR                     0x10000000
 
-#define INTI_DATA_LEN               2*1024*1024
-#define TRANS_LEN                   64
-#define TEST_LOOP_NUM               3
-
 #define lluint long long unsigned int
 
 
@@ -121,8 +117,9 @@ class KernelHandle{
 	public:
 	KernelHandle(int dh){
 		krnl_reg_base = (uint32_t*)mmap(NULL, 65536, PROT_READ | PROT_WRITE, MAP_SHARED, dh, KRNL_REG_BASE_ADDR);
-		book_addr  = (price_depth_chain*)mmap(NULL, 128 * (2*AS_RANGE + AS_CHAIN_LEVELS) * 8, PROT_READ | PROT_WRITE, MAP_SHARED, dh, BOOK_ADDR);
-		mem_init(book_addr, (2*AS_RANGE + AS_CHAIN_LEVELS), 0);
+		book_addr  = (price_depth_chain*)mmap(NULL, 128 * 8 * (2*AS_RANGE + AS_CHAIN_LEVELS), PROT_READ | PROT_WRITE, MAP_SHARED, dh, BOOK_ADDR);
+		price_depth_chain v = {0};
+		mem_init(book_addr, (2*AS_RANGE + AS_CHAIN_LEVELS), v);
 
 	}
 
@@ -146,14 +143,11 @@ symbol_t *symbol_map=(symbol_t*)symbols;
 
 
 int main(int argc, char* argv[]) {
-    // int dh = open("/dev/mem", O_RDWR | O_SYNC);
-    int dh = open("/dev/mem", O_RDWR);
 
     // ------------------------------------------------------------------------------------
     // Step 1: Initialize the OpenCL environment
     // ------------------------------------------------------------------------------------
 
-    char* binaryFile;
     char* file_dir;
     if (argc == 2){
         file_dir = argv[1];
@@ -187,6 +181,8 @@ int main(int argc, char* argv[]) {
     vector<vector<price_depth>> read_price;
 	vector<orderOp> ops;
     double elapse_ns;
+    int dh = open("/dev/mem", O_RDWR | O_SYNC);
+    // int dh = open("/dev/mem", O_RDWR);
     KernelHandle k_handler(dh);
 
     // initialize order books  ---------------------------------
